@@ -38,12 +38,6 @@ public class TestModuleUI extends DriverInitialization {
 		Assert.assertEquals(Wikipedia.releaseDate.toString(), Imdb.releaseDate.toString(), "Release Date don't match");
 	}
 	
-	/*
-	 * @Test(description = "get date and country from imdb") public void TC_004() {
-	 * launchUrl(imdbUrl); imd.validateFieldsToPerformSearch(searchValue);
-	 * imd.clickMovieTable(); }
-	 */
-	
 	@AfterClass
 	public void quitBrowser() {
 		closeBrowser();
