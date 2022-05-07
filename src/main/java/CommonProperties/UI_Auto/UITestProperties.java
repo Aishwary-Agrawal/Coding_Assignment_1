@@ -25,7 +25,7 @@ public class UITestProperties {
 	private static void loadProperties() {
 		InputStream input = null;
 		try {
-			String filepath = "../UI_Auto/UiTest.properties";
+			String filepath = "./UiTest.properties";
 			File file = new File(filepath);
 			input = new FileInputStream(file);
 
